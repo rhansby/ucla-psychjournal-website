@@ -1,0 +1,113 @@
+@media (max-width: 920px) {
+    #logo {
+        background-size: 800px 121px;
+        width: 800px;
+        height: 121px;
+    }
+
+    #main {
+        width: 800px;
+    }
+
+    nav ul li {
+        padding: 15px 15px 15px 0;
+    }
+        nav ul li:last-child {
+            padding-right: 0;
+        }
+        nav ul li a {
+            font-size: 11pt;
+        }
+}
+
+@media (max-width: 820px) {
+    #logo {
+        background-size: 600px 91px;
+        width: 600px;
+        height: 91px;
+    }
+
+    #main {
+        width: 600px;
+    }
+
+    nav ul li {
+        padding: 10px 15px 10px 0;
+    }
+        nav ul li:last-child {
+            padding-right: 0;
+        }
+        nav ul li a {
+            font-size: 10pt;
+        }
+
+    .hidden-medium {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
+    #logo {
+        background-size: 400px 60px;
+        width: 400px;
+        height: 60px;
+    }
+
+    #main {
+        width: 400px;
+    }
+
+    nav {
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        margin:  30px auto;
+        width: 400px;
+    }
+        nav ul li {
+            border-bottom: 1px solid #bbb;
+            display: block;
+        }
+            nav ul li:last-child {
+                border-bottom: none;
+                padding-right: 0;
+            }
+            nav ul li a {
+                font-size: 12pt;
+            }
+
+    .hidden-medium {
+        display: inline;
+    }
+}
+
+@media (max-width: 420px) {
+    #logo {
+        background-size: 300px 45px;
+        width: 300px;
+        height: 45px;
+    }
+
+    #main {
+        width: 300px;
+    }
+
+    nav {
+        width: 95%;
+    }
+        nav ul li a {
+            font-size: 11pt;
+        }
+}
+
+/* 320 = iPhone width */
+@media (max-width: 320px) {
+    #logo {
+        background-size: 250px 38px;
+        width: 250px;
+        height: 38px;
+    }
+
+    #main {
+        width: 280px;
+    }
+}

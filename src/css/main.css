@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+}
+    html {
+        overflow-y: scroll; /* force scroll bar */
+    }
+    body {
+        background-image: url("../img/?.png");
+        color: #222;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+/* Sticky footer styling: */
+#container {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -50px;
+}
+footer, #push {
+    height: 50px; /* Needs to be the same amount as #container's margin-bottom */
+}
+    footer {
+        border: 1px solid #bbb;
+        border-right: none;
+        border-left:  none;
+        clear: both;
+        margin: 0 auto;
+        padding-top: 20px;
+        text-align: center;
+        width: 90%;
+    }
+/* End of sticky footer styling: */
+
+header {
+    margin-top: 30px;
+}
+
+#logo {
+    background-image: url("../img/logo.jpg");
+    background-size: 900px 136px;
+    margin: auto;
+    width: 900px;
+    height: 136px;
+}
+
+nav {
+    background-color: #f5f5f5;
+    border: 1px solid #bbb;
+    border-right: none;
+    border-left: none;
+    margin-top: 30px;
+    text-align: center;
+}
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+        nav ul li {
+            display: inline-block;
+            padding: 25px 30px 25px 0;
+            text-transform: uppercase;
+        }
+            nav ul li:last-child {
+                padding-right: 0;
+            }
+            nav ul li a {
+                color: #333;
+                font-size: 12pt;
+                font-weight: 200;
+                text-decoration: none;
+            }
+                nav ul li a.active, nav ul li a:hover {
+                    color: blue; /* TODO: make this the color of the logo; */
+                }
+                    nav ul li a.active:hover {
+                        color: #111;
+                    }
+
+#main {
+    margin: auto;
+    width: 880px;
+}
+
+h1 {
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
