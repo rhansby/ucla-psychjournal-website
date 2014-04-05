@@ -88,6 +88,25 @@ module.exports = function(grunt) {
           'build/pages/': ['src/views/pages/*.hbs']
         }
       }
+    },
+
+    watch: {
+      html: {
+        files: ['src/views/**/*.hbs'],
+        tasks: ['html']
+      },
+      css: {
+        files: ['src/css/**/*.css'],
+        tasks: ['css']
+      },
+      js: {
+        files: ['src/js/**/*.js'],
+        tasks: ['js']
+      },
+      img: {
+        files: ['src/img/**/*.jpg', 'src/img/**/*.png', 'src/img/**/*.gif','src/img/**/*.ico'],
+        tasks: ['img']
+      }
     }
   });
 
@@ -97,6 +116,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Run these like "$ grunt html"
   grunt.registerTask('html', ['assemble', 'copy:html', 'clean:pages']);

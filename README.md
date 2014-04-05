@@ -20,7 +20,15 @@ In order to build the site from the src/ folder (i.e. compile Handlebars files t
 
     $ grunt
 
+Even better, you can use the following command to make Grunt automatically build whenever a src file has changed:
+
+    $ grunt watch
+
 If you are unfamiliar with Grunt, you can find more information in the documentation on the Grunt website, or examine the provided Gruntfile.js in this project.
+
+In order to view this website, you should run a small HTTP server from the build/ directory. I highly recommend using python's SimpleHTTPServer:
+
+    $ python -m SimpleHTTPServer
 
 ## A Note to Future Maintainers:
 
