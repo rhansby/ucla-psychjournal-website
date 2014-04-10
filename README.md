@@ -32,5 +32,5 @@ In order to view this website, you should run a small HTTP server from the build
 
 ## A Note to Future Maintainers:
 
-To modify this project, it is entirely possible to simply edit the compiled HTML files, in the compiled build/ folder. However, I strongly recommend that you use the handlebars templates and grunt build tasks that are available. If you have any questions, feel free to reach me at [rhansby@gmail.com](rhansby@gmail.com).
+If you have any questions, feel free to reach me at [rhansby@gmail.com](rhansby@gmail.com).
 
