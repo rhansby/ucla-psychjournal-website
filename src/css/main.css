@@ -7,7 +7,8 @@ html, body {
     body {
         background-image: url("../img/?.png");
         color: #222;
-        font-family: Helvetica, Arial, sans-serif;
+        font-family: "Lato", Helvetica, Arial, sans-serif;
+        font-weight: 300;
     }
 
 /* Sticky footer styling: */
@@ -67,7 +68,7 @@ nav {
             nav ul li a {
                 color: #333;
                 font-size: 12pt;
-                font-weight: 200;
+                font-weight: 300;
                 text-decoration: none;
             }
                 nav ul li a.active, nav ul li a:hover {
@@ -82,13 +83,98 @@ nav {
     width: 880px;
 }
 
-h1 {
-    font-weight: 100;
+h1, h2, h3, h4, h5, h6, .bd {
+    font-weight: 300;
     letter-spacing: 1px;
-    text-align: center;
 }
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+    }
 
 p {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 18pt;
+    line-height: 32pt;
 }
+
+a {
+    text-decoration: none;
+}
+
+/* Contact page icons */
+.media, .bd {
+    height: 80px;
+    _overflow:visible;
+    overflow: hidden;
+    zoom: 1;
+}
+    .media {
+        color: #222;
+        display: block;
+        -webkit-transition: all 0.2s ease-in-out;
+           -moz-transition: all 0.2s ease-in-out;
+            -ms-transition: all 0.2s ease-in-out;
+             -o-transition: all 0.2s ease-in-out;
+                transition: all 0.2s ease-in-out;
+    }
+    .bd {
+        display: table-cell;
+        font-size: 32px;
+        padding-left: 25px;
+        vertical-align: middle;
+    }
+
+.icons {
+    list-style: none;
+    margin: 100px auto;
+    padding: 0;
+    width: 500px;
+}
+    .icons li {
+        margin-bottom: 60px;
+    }
+        .icons li:last-child {
+            margin-bottom: 0;
+        }
+
+.icon {
+    border: 0;
+    border-radius: 100%;
+    color: white;
+    font-size: 32px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.media:hover {
+    margin-left: 10px;
+    cursor: pointer;
+}
+    .media:hover .bd {
+        color: #7490c3;
+        text-decoration: underline;
+    }
+    .media .icon {
+        float: left;
+    }
+        .icon.fa-facebook {
+            background: #7490c3;
+        }
+            .media:hover .icon.fa-facebook {
+                background: #829bc9;
+            }
+        .icon.fa-twitter {
+            background: #70aecd;
+        }
+            .media:hover .icon.fa-twitter {
+                background: #7fb7d2;
+            }
+        .icon.fa-envelope {
+            background: #db6b67;
+        }
+            .media:hover .icon.fa-envelope {
+                background: #df7b77;
+            }
