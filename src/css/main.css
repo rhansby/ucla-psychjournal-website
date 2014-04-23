@@ -93,9 +93,13 @@ h1, h2, h3, h4, h5, h6, .bd {
     }
 
 p {
-    font-size: 18pt;
-    line-height: 32pt;
+    font-size: 22px;
+    line-height: 2em;
 }
+    .blurb {
+        text-align: justify;
+        margin: 2em 10px;
+    }
 
 a {
     text-decoration: none;
@@ -133,6 +137,7 @@ a {
 }
     .bd-member {
         font-size: 17px;
+        line-height: 1.5em;
         text-align: justify;
     }
     .member-header {
