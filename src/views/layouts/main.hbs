@@ -1,3 +1,7 @@
+---
+root: ..
+---
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,25 +18,25 @@
 
         <link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Lato:100,300'>
         <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-        <link rel="stylesheet" type="text/css" href="/css/style.min.css">
+        <link rel="stylesheet" type="text/css" href="{{ root }}/css/style.min.css">
     </head>
 
     <body>
         <div id="container">
             <header>
-                <a href="/">
+                <a href="{{ root }}">
                     <div id="logo">
                     </div>
                 </a>
 
                 <nav>
                     <ul>
-                        <li><a href="/" class="active">Home</a></li>
-                        <li><a href="/submissions" class="">Submissions</a></li>
-                        <li><a href="/members" class="">Members</a></li>
-                        <li><a href="/publications" class="">Publications</a></li>
-                        <li><a href="/contact" class="">Contact Us</a></li>
-                        <li><a href="/links" class="">Links<span class="hidden-medium"> and Other Resources</span></a></li>
+                        <li><a href="{{ root }}/" {{#is active_tab 'home'}}class="active"{{/is}}>Home</a></li>
+                        <li><a href="{{ root }}/submissions" {{#is active_tab 'submissions'}}class="active"{{/is}}>Submissions</a></li>
+                        <li><a href="{{ root }}/members" {{#is active_tab 'members'}}class="active"{{/is}}>Members</a></li>
+                        <li><a href="{{ root }}/publications" {{#is active_tab 'publications'}}class="active"{{/is}}>Publications</a></li>
+                        <li><a href="{{ root }}/contact" {{#is active_tab 'contact'}}class="active"{{/is}}>Contact Us</a></li>
+                        <li><a href="{{ root }}/links" {{#is active_tab 'links'}}class="active"{{/is}}>Links<span class="hidden-medium"> and Other Resources</span></a></li>
                     </ul>
                 </nav>
             </header>
@@ -51,6 +55,6 @@
             &copy; 2014 Undergraduate Research Journal of Psychology at UCLA
         </footer>
 
-        <script src="/js/main.min.js"></script>
+        <script src="{{ root }}/js/main.min.js"></script>
     </body>
 </html>
