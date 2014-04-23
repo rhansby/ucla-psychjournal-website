@@ -2,6 +2,7 @@ html, body {
     height: 100%;
 }
     html {
+        font-size: 62.5%; /* Now, 1rem = 10px */
         overflow-y: scroll; /* force scroll bar */
     }
     body {
@@ -67,7 +68,8 @@ nav {
             }
             nav ul li a {
                 color: #333;
-                font-size: 12pt;
+                font-size: 16px;
+                font-size: 1.6rem;
                 font-weight: 300;
                 text-decoration: none;
             }
@@ -94,6 +96,7 @@ h1, h2, h3, h4, h5, h6, .bd {
 
 p {
     font-size: 22px;
+    font-size: 2.2rem;
     line-height: 2em;
 }
     .blurb {
@@ -106,7 +109,14 @@ a {
 }
 
 .page-header {
+    font-size: 32px;
+    font-size: 3.2rem;
     margin-top: 50px;
+}
+
+footer {
+    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 /* Contact page icons */
@@ -128,6 +138,7 @@ a {
     .bd {
         display: table-cell;
         font-size: 32px;
+        font-size: 3.2rem;
         padding-left: 25px;
         vertical-align: middle;
     }
@@ -137,18 +148,21 @@ a {
 }
     .bd-member {
         font-size: 17px;
+        font-size: 1.7rem;
         line-height: 1.5em;
         text-align: justify;
     }
     .member-header {
         color: #111;
         font-size: 26px;
+        font-size: 2.6rem;
         letter-spacing: 2px;
         margin: 0;
     }
     .member-sub-header {
         color: #333;
         font-size: 21px;
+        font-size: 2.1rem;
         margin-top: 5px;
         margin-bottom: 20px;
     }
@@ -173,6 +187,7 @@ a {
     border-radius: 100%;
     color: white;
     font-size: 32px;
+    font-size: 3.2rem;
     width: 80px;
     height: 80px;
     line-height: 80px;

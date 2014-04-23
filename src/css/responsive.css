@@ -16,7 +16,8 @@
             padding-right: 0;
         }
         nav ul li a {
-            font-size: 11pt;
+            font-size: 15px;
+            font-size: 1.5rem;
         }
 }
 
@@ -38,7 +39,8 @@
             padding-right: 0;
         }
         nav ul li a {
-            font-size: 10pt;
+            font-size: 13px;
+            font-size: 1.3rem;
         }
 
     .hidden-medium {
@@ -72,7 +74,8 @@
                 padding-right: 0;
             }
             nav ul li a {
-                font-size: 12pt;
+                font-size: 16px;
+                font-size: 1.6rem;
             }
 
     .hidden-medium {
@@ -81,6 +84,7 @@
 
     p {
         font-size: 18px;
+        font-size: 1.8rem;
     }
 
     .members .media img {
@@ -117,22 +121,26 @@
         width: 95%;
     }
         nav ul li a {
-            font-size: 11pt;
+            font-size: 15px;
+            font-size: 1.5rem;
         }
 
     .icon {
         font-size: 24px;
+        font-size: 2.4rem;
         width: 60px;
         height: 60px;
         line-height: 60px;
     }
     .bd {
         font-size: 24px;
+        font-size: 2.4rem;
         height: 60px;
         padding-left: 20px;
     }
         .bd-member {
             font-size: 16px;
+            font-size: 1.6rem;
         }
 }
 
