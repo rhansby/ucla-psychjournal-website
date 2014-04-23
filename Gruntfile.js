@@ -16,7 +16,6 @@ module.exports = function(grunt) {
         cwd: 'src/img/',
         src: '**',
         dest: 'build/img/',
-        flatten: true,
         filter: 'isFile'
       },
       html: {
