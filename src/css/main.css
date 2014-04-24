@@ -49,11 +49,11 @@ header {
 
 nav {
     background-color: #f5f5f5;
-    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3) inset;
-       -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3) inset;
-            box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3) inset;
+    /* 3px horizontal shadow corresponds to -3px margin-left (this is to hide the shadows on left and right side) */
+    -webkit-box-shadow: 3px 0 5px 0 rgba(0, 0, 0, 0.3) inset;
+       -moz-box-shadow: 3px 0 5px 0 rgba(0, 0, 0, 0.3) inset;
+            box-shadow: 3px 0 5px 0 rgba(0, 0, 0, 0.3) inset;
     margin-left: -3px;
-    margin-right: -3px;
     margin-top: 30px;
     text-align: center;
 }
