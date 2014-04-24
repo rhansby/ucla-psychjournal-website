@@ -40,10 +40,11 @@ header {
 
 #logo {
     background-image: url("../img/logo.jpg");
-    background-size: 900px 136px;
+    background-size: 900px 120px;
+    background-repeat: no-repeat;
     margin: auto;
     width: 900px;
-    height: 136px;
+    height: 120px;
 }
 
 nav {
