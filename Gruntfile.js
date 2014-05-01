@@ -4,10 +4,10 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     clean: {
-        all: ['build/*'],
-        // remove unneeded, intermediate build files:
-        combined_css: ['build/css/combined.css'],
-        pages: ['build/pages/']
+      all: ['build/*'],
+      // remove unneeded, intermediate build files:
+      combined_css: ['build/css/combined.css'],
+      pages: ['build/pages/']
     },
 
     copy: {
@@ -16,6 +16,13 @@ module.exports = function(grunt) {
         cwd: 'src/img/',
         src: '**',
         dest: 'build/img/',
+        filter: 'isFile'
+      },
+      docs: {
+        expand: true,
+        cwd: 'src/docs/',
+        src: '**',
+        dest: 'build/docs/',
         filter: 'isFile'
       },
       html: {
@@ -122,8 +129,9 @@ module.exports = function(grunt) {
   grunt.registerTask('css', ['concat:css', 'cssmin', 'clean:combined_css']);
   grunt.registerTask('js', ['uglify:release']);
   grunt.registerTask('img', ['copy:img']);
+  grunt.registerTask('docs', ['copy:docs']);
 
   // Run this with just "$ grunt":
-  grunt.registerTask('default', ['html', 'css', 'js', 'img']);
+  grunt.registerTask('default', ['html', 'css', 'js', 'img', 'docs']);
 };
 
