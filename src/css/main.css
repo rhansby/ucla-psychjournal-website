@@ -78,10 +78,11 @@ nav {
                 text-decoration: none;
             }
                 nav ul li a.active, nav ul li a:hover {
-                    color: blue; /* TODO: make this the color of the logo; */
+                    color: #1274b5;
+                    text-decoration: underline;
                 }
                     nav ul li a.active:hover {
-                        color: #111;
+                        color: #999;
                     }
 
 #main {
