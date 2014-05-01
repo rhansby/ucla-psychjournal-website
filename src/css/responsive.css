@@ -131,12 +131,16 @@
 /* 320 = iPhone width */
 @media (max-width: 320px) {
     #logo {
-        background-size: 250px 38px;
+        background-size: 250px 33px;
         width: 250px;
         height: 33px;
     }
 
     #main {
         width: 280px;
+    }
+
+    .media-icon:hover {
+        margin-left: 0;
     }
 }
