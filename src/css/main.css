@@ -222,10 +222,10 @@ footer {
         .media:hover .icon.fa-twitter {
             background: #7fb7d2;
         }
-    .icon.fa-envelope, .icon.fa-file {
+    .icon.fa-envelope, .icon.fa-file, .icon.fa-external-link-square {
         background: #db6b67;
     }
-        .media:hover .icon.fa-envelope, .media:hover .icon.fa-file {
+        .media:hover .icon.fa-envelope, .media:hover .icon.fa-file, .media:hover .icon.fa-external-link-square  {
             background: #df7b77;
         }
 
