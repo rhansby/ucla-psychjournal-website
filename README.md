@@ -1,12 +1,12 @@
 # Website for the Undergraduate Psychology Research Journal at UCLA
 
-url here...
+[http://www.studentgroups.ucla.edu/psychjournal/](http://www.studentgroups.ucla.edu/psychjournal/)
 
 ## Setup Instructions
 
 Hopefully you are on a Linux or OS/X platform. If so, you can use the terminal to use npm and Grunt (if you run into installation issues, use sudo):
 
-* First, you need Node.js / npm: [http://nodejs.org/download/](http://nodejs.org/download/ "node.js / npm")
+* First, you download and install  Node.js / npm: [http://nodejs.org/download/](http://nodejs.org/download/ "node.js / npm")
 
 * And get Grunt: [http://gruntjs.com/getting-started](http://gruntjs.com/getting-started "Grunt")
 
