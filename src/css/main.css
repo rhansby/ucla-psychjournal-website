@@ -108,6 +108,12 @@ p {
         text-align: justify;
         margin: 2em 10px;
     }
+        .call-to-action {
+            font-size: 2.8rem;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: underline;
+        }
 
 a {
     text-decoration: none;
